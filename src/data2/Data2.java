@@ -157,7 +157,7 @@ public class Data2 {
         }
 
         /**
-         *The leaf implementation of returns a new MultiSet<T> containing t with a multiplicty of one, and two leaf children
+         *The leaf implementation of returns a new MultiSet containing t with a multiplicty of one, and two leaf children
          * @param t
          * @return
          */
@@ -166,7 +166,7 @@ public class Data2 {
         }
 
         /**
-         *The leaf implementation of returns a new MultiSet<T> containing t with a multiplicty of x, and two leaf children
+         *The leaf implementation of returns a new MultiSet containing t with a multiplicty of x, and two leaf children
          * @param t
          * @param x
          * @return
@@ -307,7 +307,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of add returns a new MultiSet<T> with t added to it, either by increasing the multiplicity of the existing t in the Branch by one, or by adding a new node containing t with a multiplicity of one
+         *The Branch implementation of add returns a new MultiSet with t added to it, either by increasing the multiplicity of the existing t in the Branch by one, or by adding a new node containing t with a multiplicity of one
          * @param t
          * @return
          */
@@ -323,7 +323,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of add returns a new MultiSet<T> with t added to it, either by increasing the multiplicity of the existing t in the Branch by x, or by adding a new node containing t with a multiplicity of x
+         *The Branch implementation of add returns a new MultiSet with t added to it, either by increasing the multiplicity of the existing t in the Branch by x, or by adding a new node containing t with a multiplicity of x
          * @param t
          * @param x
          * @return
@@ -340,7 +340,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of remove returns a new MultiSet<T> with one less copy of t in it, by reducing the multiplicity of t by one, using union to generate a new Branch if the multiplicity of t was reduced to zero, uses binary search to find t
+         *The Branch implementation of remove returns a new MultiSet with one less copy of t in it, by reducing the multiplicity of t by one, using union to generate a new Branch if the multiplicity of t was reduced to zero, uses binary search to find t
          * @param t
          * @return
          */
@@ -361,7 +361,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of remove returns a new MultiSet<T> with x less copies of t in it, by reducing the multiplicity of t by x, using union to generate a new Branch if the multiplicity of t was reduced to zero or below, uses binary search to find t
+         *The Branch implementation of remove returns a new MultiSet with x less copies of t in it, by reducing the multiplicity of t by x, using union to generate a new Branch if the multiplicity of t was reduced to zero or below, uses binary search to find t
          * @param t
          * @param x
          * @return
@@ -382,7 +382,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of union returns a MultiSet<T> containing all the members of this and ms
+         *The Branch implementation of union returns a MultiSet containing all the members of this and ms
          * @param ms
          * @return
          */
@@ -391,7 +391,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of inter returns a MultiSet<T> containing the members common to both this and ms
+         *The Branch implementation of inter returns a MultiSet containing the members common to both this and ms
          * @param ms
          * @return
          */
@@ -408,7 +408,7 @@ public class Data2 {
         }
 
         /**
-         *The Branch implementation of diff returns a MultiSet<T> containing the members of ms and this that they do not share in common
+         *The Branch implementation of diff returns a MultiSet containing the members of ms and this that they do not share in common
          * @param ms
          * @return
          */
